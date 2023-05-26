@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  width: auto;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-style: italic;
+  font-family: 'Roboto';
+}
+.speedometer {
+  height: 25vh;
+  width: 50vh;
+}
+.accButton {
+  color: #ffffff;
+  background-color: #007bff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  border-left: 16px;
+  border-top: 8px;
+  border-bottom: 8px;
+  border-right: 16px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.brakeButton {
+  color: #cbd5e1;
+  background-color: #07080c;
+  font-family: 'Roboto';
+  border-color: #94a3b8;
+  border-radius: 4px;
+  border-left: 16px;
+  border-top: 8px;
+  border-bottom: 8px;
+  border-right: 16px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.speed {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
